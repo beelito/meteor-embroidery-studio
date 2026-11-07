@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Email
+    url: mailto:beelito.dev@gmail.com
+    about: Send a problem report or question by email instead.

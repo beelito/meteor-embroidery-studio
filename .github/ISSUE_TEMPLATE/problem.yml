@@ -1,0 +1,30 @@
+name: Report a problem
+description: Something in Meteor went wrong or did not work as you expected.
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Device
+      options:
+        - Windows
+        - Android tablet
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Meteor version
+      description: Shown on the start screen, for example "0.9.0 beta".
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: Problem report
+      description: In Meteor, open Help > Report a problem, copy the report, and paste it here. You can also drag a design file or a screenshot into this box.
