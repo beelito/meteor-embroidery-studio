@@ -4,6 +4,8 @@ Meteor turns artwork and lettering into machine embroidery. It exports Brother P
 
 **Meteor is in beta.** Every feature is unlocked and free while the beta runs.
 
+See what it does on the [Meteor website](https://beelito.github.io/meteor-embroidery-studio/).
+
 ## Download
 
 | Your computer | Download |
