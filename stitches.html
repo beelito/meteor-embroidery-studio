@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>Stitch library — Meteor</title>
+<!-- Everything is served from this site: no third-party scripts, fonts or trackers -->
+<meta content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self'; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; upgrade-insecure-requests" http-equiv="Content-Security-Policy"/>
+<meta content="strict-origin-when-cross-origin" name="referrer"/>
+<meta content="Explore Meteor’s stitch types, satin corners, thread build-up map and design checks, with real stitch previews." name="description"/>
+<meta content="#17181c" name="theme-color"/>
+<meta content="dark" name="color-scheme"/>
+<meta content="website" property="og:type"/>
+<meta content="Meteor" property="og:site_name"/>
+<meta content="Stitch library — Meteor" property="og:title"/>
+<meta content="Explore Meteor’s stitch types, satin corners, thread build-up map and design checks, with real stitch previews." property="og:description"/>
+<link href="https://beelito.github.io/meteor-embroidery-studio/stitches.html" rel="canonical"/>
+<meta content="https://beelito.github.io/meteor-embroidery-studio/stitches.html" property="og:url"/>
+<meta content="https://beelito.github.io/meteor-embroidery-studio/assets/img/og.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="The Meteor logo and an embroidered patch of its meteor" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Stitch library — Meteor" name="twitter:title"/>
+<meta content="Explore Meteor’s stitch types, satin corners, thread build-up map and design checks, with real stitch previews." name="twitter:description"/>
+<meta content="https://beelito.github.io/meteor-embroidery-studio/assets/img/og.jpg" name="twitter:image"/>
+<link href="assets/img/icon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="assets/img/icon-180.png" rel="apple-touch-icon"/>
+<link href="site.webmanifest" rel="manifest"/>
+<link as="font" crossorigin="" href="assets/fonts/unbounded.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="assets/fonts/figtree-regular.woff2" rel="preload" type="font/woff2"/>
+<link href="assets/css/site.css?v=20261113" rel="stylesheet"/>
+<script defer="" src="assets/js/site.js?v=20261113"></script>
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav" id="top"><div class="wrap nav-row">
+<a aria-label="Meteor home" class="brand" href="index.html"><img alt="" class="brand-mark" height="32" src="assets/img/icon-180.png" width="32"/><span class="wordmark">meteor</span><span class="pill">beta</span></a>
+<button aria-controls="site-menu" aria-expanded="false" class="menu-button" id="menu-button" type="button"><span aria-hidden="true" class="menu-icon"></span><span class="visually-hidden">Menu</span></button>
+<nav aria-label="Main navigation" class="nav-links" id="site-menu"><a href="features.html">Features</a><a aria-current="page" href="stitches.html">Stitch library</a><a href="faq.html">FAQ</a><a class="btn btn-primary btn-small nav-cta" href="download.html">Get Meteor <span aria-hidden="true">↗</span></a></nav></div></header>
+<main id="main">
+<section class="page-intro"><div class="wrap"><p class="eyebrow">The stitch library</p><h1>Good embroidery<br/>is in the details.</h1><p class="section-lede">Explore real stitch output, compare satin corners, and see how Meteor helps you check a design before it reaches the needle.</p><nav aria-label="On this page" class="page-jumps"><a href="#stitches">Stitch types</a><a href="#corners">Satin corners</a><a href="#buildup-map">Thread build-up</a><a href="#design-check">Design check</a></nav></div></section><section aria-labelledby="stitches-title" class="band band-alt" id="stitches">
+<div class="wrap">
+<div class="section-head">
+<p class="eyebrow">Sewn by the engine</p>
+<h2 id="stitches-title">21 stitch types, one engine.</h2>
+<p class="section-lede">Every pattern below is real output from Meteor's stitch generator, played back in the order your machine sews it.</p>
+</div>
+<div class="library">
+<div aria-label="Stitch types" class="tabs" id="stitch-tabs" role="tablist">
+<button aria-controls="stitch-panel" aria-selected="true" class="tab" data-index="0" id="tab-0" role="tab" type="button">Tatami fill</button>
+<button aria-controls="stitch-panel" aria-selected="false" class="tab" data-index="1" id="tab-1" role="tab" tabindex="-1" type="button">Satin column</button>
+<button aria-controls="stitch-panel" aria-selected="false" class="tab" data-index="2" id="tab-2" role="tab" tabindex="-1" type="button">Contour fill</button>
+<button aria-controls="stitch-panel" aria-selected="false" class="tab" data-index="3" id="tab-3" role="tab" tabindex="-1" type="button">Radial fill</button>
+<button aria-controls="stitch-panel" aria-selected="false" class="tab" data-index="4" id="tab-4" role="tab" tabindex="-1" type="button">Stipple fill</button>
+<button aria-controls="stitch-panel" aria-selected="false" class="tab" data-index="5" id="tab-5" role="tab" tabindex="-1" type="button">Blanket stitch</button>
+</div>
+<div aria-labelledby="tab-0" class="panel library-panel" id="stitch-panel" role="tabpanel">
+<div class="swatch">
+<canvas aria-label="Tatami fill being sewn" class="sew-canvas" height="460" id="library-sew" role="img" width="460"></canvas>
+</div>
+<div class="library-text">
+<h3 id="library-name">Tatami fill</h3><button class="replay-button" id="library-replay" type="button">↻ Watch it stitch</button>
+<p id="library-about">Rows of even stitches that cover large areas flat. Needle drops shift row to row, so no seam lines up, and the needle travels under fabric it has not covered yet.</p>
+<dl class="stats">
+<div><dt>Stitches</dt><dd class="num" id="library-count">1,091</dd></div>
+<div><dt>Size</dt><dd class="num" id="library-size">35 × 33 mm</dd></div>
+<div><dt>Spacing</dt><dd class="num" id="library-spacing">0.4 mm</dd></div>
+</dl>
+</div>
+</div>
+</div>
+<ul aria-label="All stitch types" class="type-cloud">
+<li>Running</li><li>Bean</li><li>Backstitch</li><li>Stem</li><li>Chain</li><li>Candlewicking</li><li>V stitch</li><li>Blanket</li><li>Satin column</li><li>3D puff satin</li><li>Satin fill</li><li>Tatami</li><li>Flow fill</li><li>Contour</li><li>Spiral</li><li>Concentric</li><li>Radial</li><li>Stipple</li><li>Cross stitch</li><li>Motif</li><li>Applique</li>
+</ul>
+</div>
+</section><section aria-label="Refine the sew-out" class="band"><div class="wrap"><article aria-labelledby="restyle-title" class="dive" id="restyle">
+<div class="dive-copy">
+<p class="eyebrow">Try it on</p>
+<h3 id="restyle-title">Change the stitch. Keep the shape.</h3>
+<p>Every shape keeps its curve nodes, so you can try a new texture, a new angle or a new stitch type at any time. The stitches redraw as you pick, in real thread.</p>
+<ul class="ticks">
+<li><span>Textures turn a plain fill into wave, brick, diamond or chevron.</span></li>
+<li><span>Turn the fill angle, and the rows follow it.</span></li>
+<li><span>Satin, spiral, concentric and radial fills are one tap away.</span></li>
+</ul>
+</div>
+<figure class="panel stage">
+<div class="clip"><video aria-label="On a tablet, the meteor's tail tries diagonal, wave and diamond textures, then its head changes from tatami to satin, spiral, concentric and radial fills" class="stage-canvas" height="914" muted playsinline poster="assets/video/restyle-poster.webp" preload="none" src="assets/video/restyle.mp4" width="1280"></video><button class="replay-button clip-button" type="button" hidden><span aria-hidden="true" class="clip-icon">↻</span><span class="clip-label">Replay</span></button></div>
+</figure>
+</article><article aria-labelledby="corners-title" class="dive dive-flip" id="corners">
+<div class="dive-copy">
+<p class="eyebrow">Satin corners</p>
+<h3 id="corners-title">Corners that stay crisp.</h3>
+<p>Where a satin column turns, its stitches would cross and stack on the inside of the bend. Meteor gives every corner its own stitches: they meet on a clean seam, or fan around gentle turns if you prefer.</p>
+<div aria-label="Corner style" class="segmented" id="corner-style" role="radiogroup">
+<button aria-checked="true" data-style="miter" role="radio" type="button">Mitre</button>
+<button aria-checked="false" data-style="radiate" role="radio" type="button">Radiate</button>
+</div>
+<p class="note" id="corner-note">Mitre: both legs stay square and meet on a seam from the inner corner to a sharp point.</p>
+</div>
+<figure class="panel stage stage-light">
+<canvas aria-label="A satin zigzag sewn with mitred corners" class="stage-canvas stage-wide" height="240" id="corner-sew" role="img" width="600"></canvas>
+</figure>
+</article><article aria-labelledby="buildup-title" class="dive" id="buildup-map">
+<div class="dive-copy">
+<p class="eyebrow">Thread build-up</p>
+<h3 id="buildup-title">See where thread piles up.</h3>
+<p>Extra layers can stiffen fabric and put more stress on the needle. The build-up map shows each square millimetre's layers while you design.</p>
+<button aria-pressed="true" class="btn btn-ghost toggle" id="buildup-toggle" type="button">Hide the map</button>
+<ul aria-label="Map colors" class="legend">
+<li><span aria-hidden="true" class="swatch-dot amber"></span>3 layers</li>
+<li><span aria-hidden="true" class="swatch-dot orange"></span>4 layers</li>
+<li><span aria-hidden="true" class="swatch-dot red"></span>5 or more</li>
+</ul>
+</div>
+<figure class="panel stage stage-light">
+<canvas aria-label="An embroidered patch with its thread build-up shown in amber, orange and red" class="stage-canvas stage-square" height="460" id="buildup" role="img" width="460"></canvas>
+</figure>
+</article><article aria-labelledby="check-title" class="dive dive-flip" id="design-check">
+<div class="dive-copy">
+<p class="eyebrow">Design check</p>
+<h3 id="check-title">Fix it before the needle finds it.</h3>
+<p>Before export, Meteor checks the design against your hoop and machine: size, loose stitches over 7 mm, needle pile-ups, fills too small for tatami, and jumps your machine cannot trim. Most come with a one-click fix.</p>
+</div>
+<figure aria-label="The design check finding three issues and fixing them" class="panel check-demo">
+<div class="check-head">
+<strong>Fix before sewing</strong>
+<span class="check-sub">Example design</span>
+</div>
+<ul class="check-list" id="check-list">
+<li class="check-item warn"><span aria-hidden="true" class="check-mark"></span><span class="check-text"><b>2 fills are too small or narrow for fill stitches</b>Satin across the narrow way covers them smoothly.</span><span class="check-fix">Sew as satin</span></li>
+<li class="check-item warn"><span aria-hidden="true" class="check-mark"></span><span class="check-text"><b>3 loose stitches over 7 mm</b>Long stitches lie loose and catch on things.</span><span class="check-fix">Split them</span></li>
+<li class="check-item note"><span aria-hidden="true" class="check-mark"></span><span class="check-text"><b>4 jumps to cut by hand</b>Your machine trims only at color changes.</span><span class="check-fix">Optimize order</span></li>
+</ul>
+<div class="check-foot">
+<span class="check-done" id="check-done">Ready to sew</span>
+<button class="btn btn-primary btn-small check-all" id="check-all" type="button">Run example check</button>
+</div>
+</figure>
+</article></div></section><section class="closing"><div class="wrap closing-line" data-reveal=""><div><p class="eyebrow">A little imagination goes a long way</p><h2>Make every stitch yours.</h2><p>Every feature is yours to try. Free during the beta.</p></div><a class="btn btn-primary btn-large" href="download.html">Get Meteor <span aria-hidden="true">↗</span></a></div></section>
+</main>
+<footer class="footer"><div class="wrap footer-grid">
+<div class="footer-brand"><a aria-label="Meteor home" class="brand" href="index.html"><img alt="" class="brand-mark" height="28" src="assets/img/icon-180.png" width="28"/><span class="wordmark">meteor</span></a><p>From your imagination<br/>to your embroidery machine.</p><span class="footer-platforms">Windows · Mac · Linux · Android tablets</span></div>
+<nav aria-label="Explore" class="footer-col"><h2>Explore</h2><a href="features.html">Features</a><a href="stitches.html">Stitch library</a><a href="features.html#studio">The studio</a></nav>
+<nav aria-label="Get started" class="footer-col"><h2>Get started</h2><a href="download.html">Download</a><a href="download.html#machine">Machines &amp; formats</a><a href="faq.html">Questions &amp; answers</a><a href="https://github.com/beelito/meteor-embroidery-studio/issues/new/choose">Report a problem</a></nav>
+<nav aria-label="More" class="footer-col"><h2>More</h2><a href="privacy.html">Privacy</a><a href="https://github.com/beelito/meteor-embroidery-studio/releases">Release notes</a><a href="assets/fonts/OFL-Figtree.txt">Font licenses</a></nav></div>
+<div class="wrap footer-base"><p>© 2026 Meteor</p><p>Brother, Baby Lock and Tajima are trademarks of their owners. Meteor is not affiliated with them.</p><a href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>

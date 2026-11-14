@@ -1,0 +1,13 @@
+{
+  "name": "Meteor",
+  "short_name": "Meteor",
+  "description": "Embroidery digitizing software.",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#17181c",
+  "theme_color": "#17181c",
+  "icons": [
+    { "src": "assets/img/icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
